@@ -418,4 +418,63 @@ Znajduje pliki, pomijając ukryte
 
 
 
+odpowiedzi:
+
+zadanie 1:
+
+mkdir -p ~/project/{src/utils, docs, backup}
+
+tree -d ~/project
+
+find ~/project -type d | sed 's/[^\/]*\// /g;s/\([^ ]\)/--\1/'
+
+zadanie 2:
+
+cp -r zdjecia/ backup/
+
+zadanie 3.
+
+chmod a+x backup.sh
+
+zadanie 4
+
+cut -d',' -f3 pracownicy.csv
+
+zadanie 5
+
+grep -r -l "connect_db" projekt/
+
+zadanie 6
+
+sudo tail -f /var/log/syslog
+
+zadanie 7
+
+echo $USER
+
+zadanie 8
+
+ps aux | grep firefox | grep -v grep | wc -l
+
+zadanie 9
+
+10dd
+
+zadanie 10
+
+find ~-type f -size 100m
+
+zadanie 11
+
+cat czesc1.txt czesc2.txt
+
+zadanie 12
+
+chgrp studenci sprawozdanie.pdf
+
+zadanie 13
+
+tr -d '\r' < dane_windows.txt
+
+
 
